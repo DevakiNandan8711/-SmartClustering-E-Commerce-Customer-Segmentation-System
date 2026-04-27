@@ -1,0 +1,105 @@
+# =============================================
+# Python
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# =============================================
+# Virtual Environments
+# =============================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================
+# Jupyter Notebook Checkpoints
+# =============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# =============================================
+# Distribution / Packaging
+# =============================================
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+
+# =============================================
+# Data Files (large or sensitive)
+# =============================================
+# Uncomment the line below if you want to exclude the dataset
+# *.csv
+
+# =============================================
+# OS Generated Files
+# =============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# =============================================
+# IDE / Editor Files
+# =============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+# =============================================
+# Logs & Temp Files
+# =============================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# =============================================
+# Model / Output Files (optional)
+# =============================================
+# Uncomment below if you save model artifacts
+# *.pkl
+# *.joblib
+# *.h5
+# outputs/
+# models/
